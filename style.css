@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+:root{
+    --cor-de-fundo: #0E091B;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background-color: var(--cor-de-fundo);
+}
+header{
+    padding: 20px 0;
+}
+.headerNavegation{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.headerNavegation h2{
+    font-family: 'Righteous', cursive;
+    color: #fff;
+}
+.menuDesktop{
+    display: flex;
+    gap: 11px;
+}
+.menuDesktop a{
+    font-family: 'Sarala', sans-serif;
+    color: #fff;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.section01{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 75px 0;
+    border-top: 1px solid #fff;
+}
+.infoEndButton{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    gap: 10px;
+    font-family: 'Sarala', sans-serif;
+}
+.infoEndButton h1{
+    font-family: 'Righteous', cursive;
+    font-size: 48px;
+}
+.buttonWhats{
+    width: 200px;
+    height: 56px;
+    background: linear-gradient(90deg, rgba(102, 16, 242, 0) 0%, #6610F2 40.63%);
+    border: 1px solid #711CFC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 10px;
+    transition: .2s;
+    font-family: 'Righteous', cursive;
+    font-size: 19px;
+}
+.buttonWhats:hover{
+    width: 250px;
+}
+.about{
+    display: flex;
+    padding: 75px 0;
+    flex-direction: column;
+    border-top: 0.3px solid #711CFC;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.aboutDiv01{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.aboutDiv01 h2{
+    color: #fff;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+.aboutDiv01 p{
+    font-weight: 300;
+    font-family: 'Sarala', sans-serif;
+    color: #fff;
+}
+.aboutDiv02{
+    width: 200px;
+}
+.skills{
+    display: flex;
+    justify-content: space-around;
+    padding: 75px 0;
+    align-items: baseline;
+    border-top: 0.3px solid #711CFC;
+}
+.divGost{
+    width: 200px;
+}
+.infoSkills{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.infoSkills h2{
+    font-size: 48px;
+    font-family: 'Sarala', sans-serif;
+    color: #fff;
+}
+.infoSkills p{
+    color: #fff;
+    font-family: 'Sarala', sans-serif;
+    font-size: 16px;
+}
+.infoSkills img{
+    width: 200px;
+    height: 100px;
+}
+.projects{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    padding: 75px 0;
+    border-top: 0.3px solid #711CFC;
+}
+.projects h2{
+    font-family: 'Sarala', sans-serif;
+    color: #fff;
+    font-size: 48px;
+}
+.projects h3{
+    color: #fff;
+    font-family: 'Sarala', sans-serif;
+    font-size: 16px;
+}
+.gridDemonstration{
+    display: grid;
+    grid-template-columns: minmax(200px,auto) minmax(200px,auto) minmax(200px,auto);
+    grid-template-rows: minmax(200px,auto) minmax(200px,auto);
+    grid-template-areas: 
+        "box-1 box-2 box-3"
+        "box-4 box-5 box-3"
+    ;
+    grid-gap: 10px;
+}
+.boxGrid{
+    border: 1px solid #fff;
+    background: #721cfc2c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    transition: .2s;
+}
+.boxGrid:hover{
+    background: #721cfc81;
+}
+.box-1{
+    grid-area: box-1;
+}
+.box-2{
+    grid-area: box-2;
+}
+.box-3{
+    grid-area: box-3;
+}
+.h2OfGrid{
+    font-family: 'Sarala', sans-serif;
+}
+.linkOfGrid{
+    color: #fff;
+    font-family: 'Sarala', sans-serif;
+    font-size: 14px;
+    transition: .2s;
+}
+.linkOfGrid:hover{
+    color: #0c0663;
+}
+.projects p{
+    font-family: 'Sarala', sans-serif;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    padding: 75px 0;
+    border-top: 0.3px  solid #711CFC;
+    border-bottom: 0.3px solid #711CFC;
+}
+.contact h2{
+    font-size: 48px;
+    color: #fff;
+    font-family: 'Sarala', sans-serif;
+}
+.contact h3{
+    color: #fff;
+    font-family: 'Sarala', sans-serif;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+.form input{
+    width: 500px;
+    height: 30px;
+    background: none;
+    border: 1px solid #711CFC;
+    border-radius: 10px;
+    outline: none;
+    padding: 0 10px;
+    color: #fff;
+}
+.buttonSubmitForm{
+    width: 70px;
+    height: 25px;
+    background: linear-gradient(90deg, rgba(102, 16, 242, 0) 0%, #6610F2 40.63%);
+    border: 1px solid #711CFC;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+    border-radius: 5px;
+}
+.buttonSubmitForm:hover{
+    width: 100px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 75px 0;
+    color: rgba(255, 255, 255, 0.63);
+}
+.icons{
+    padding: 20px 0;
+    display: flex;
+    gap: 15px;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Miqueias Belfort - Site para o seu negócio.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Miqueias Belfort - devoleper front-end</title>
+</head>
+<body>
+    <header>
+        <nav class="headerNavegation">
+            <h2 class="logoHeader"> MIQUEIASBELFORT </h2>
+            <div class="menuMobile"></div>
+            <div class="menuDesktop">
+                <a href="#about">Sobre</a>
+                <a href="#skills">Habilidades</a>
+                <a href="#projects">Projetos</a>
+                <a href="#contact">Contato</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="section01">
+            <div class="infoEndButton">
+                <h3>Olá, eu sou</h3>
+                <h1>Miqueias Belfort</h1>
+                <h3>front-end developer</h3>
+                <a href="#contact" class="buttonWhats">WhatsApp</a>
+            </div>
+            <img src="img/site.svg" alt="Site">
+        </section>
+
+        <section class="about" id="about">
+            <div class="aboutDiv01">
+                <h2>Meu nome é Miqueias Belfort, sou desenvolvedor<br>front-end junior e freelance.</h2>
+                <p>Crio sites para pequenos negócios terem a oportunidade de<br>crescer no mundo digital.</p>
+                <p>Site responsivo tanto para mobile quando desktop, além de<br>orientar sobre toda o processo de hospedagem.</p>
+            </div>
+            <div class="aboutDiv02"></div>
+        </section>
+
+        <section class="skills" id="skills">
+            <div class="infoSkills">
+                <h2>Habilidades</h2>
+                <img src="img/sibolosTecnologias.svg" alt="HTML CSS & JAVASCRIPT">
+                <p>HTML é uma linguagem de marcação utilizada na construção de páginas na Web.</p>
+                <p>CSS é um mecanismo para adicionar estilo a um documento web.</p>
+                <p>
+                    JAVASCRIPT é uma linguagem de programação interpretada estruturada, 
+                    <br>de script em alto nível com tipagem dinâmica fraca e multiparadigma. 
+                    <br>Juntamente com HTML e CSS, o JavaScript 
+                    <br>é uma das três principais tecnologias da World Wide Web (WWW).
+                </p>
+            </div>
+            <div class="divGost"></div>
+        </section>
+
+        <section class="projects" id="projects">
+            <h2>Projetos</h2>
+            <h3>Venha ser o primeiro a ter a experiência de ter seu<br>próprio site.</h3>
+            <div class="gridDemonstration">
+                <div class="box-1 boxGrid">
+                    <h3 class="h2OfGrid">Seu site<br>aqui!</h3>
+                    <a class="linkOfGrid" href="#contact">Contato</a>
+                </div>
+                <div class="box-2 boxGrid">
+                    <h3 class="h2OfGrid">Seu site<br>aqui!</h3>
+                    <a class="linkOfGrid" href="#contact">Contato</a>
+                </div>
+                <div class="box-3 boxGrid">
+                    <h3 class="h2OfGrid">Seu site<br>aqui!</h3>
+                    <a class="linkOfGrid" href="#contact">Contato</a>
+                </div>
+                <div class="box-4 boxGrid">
+                    <h3 class="h2OfGrid">Seu site<br>aqui!</h3>
+                    <a class="linkOfGrid" href="#contact">Contato</a>
+                </div>
+                <div class="box-5 boxGrid">
+                    <h3 class="h2OfGrid">Seu site<br>aqui!</h3>
+                    <a class="linkOfGrid" href="#contact">Contato</a>
+                </div>
+            </div>
+            <p>*Demonstração de CSS Grid</p>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>Contato</h2>
+            <h3>Solicitar orçamento</h3>
+            <form class="form">
+                <p>E-mail:</p>
+                <input type="email" id="email" placeholder="Digite seu Email">
+                <p>Nome:</p>
+                <input type="text" id="name" placeholder="Digite seu nome">
+                <p>Tipo de site:</p>
+                <input type="text" id="siteType" list="list">
+                <datalist id="list">
+                    <option value="Site com usuário"></option>
+                    <option value="Portfólio"></option>
+                    <option value="Para Loja física"></option>
+                    <option value="Apresentar um Produto"></option>
+                    <option value="Loja virtual"></option>
+                </datalist>
+                <p>Descreva o site:</p>
+                <input type="text" placeholder="Descreva com poucas palavras sobre o site">
+                <button class="buttonSubmitForm">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2021 . built with care ♥ by Miquieas Belfort</p>
+        <div class="icons">
+            <a href="https://www.instagram.com/miqueiasbelfort/"><i class="fab fa-instagram" style="font-size: 48px; color: #fff;"></i></a>
+            <a href="https://github.com/miqueiasbelfort"><i class="fab fa-github" style="font-size: 48px; color: #fff;"></i></a>
+            <a href="https://www.linkedin.com/in/miqueias-belfort-6209ba209/"><i class="fab fa-linkedin-in" style="font-size: 48px; color: #fff;"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
