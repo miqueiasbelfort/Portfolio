@@ -367,6 +367,21 @@ main{
     padding: 0 10px;
     color: #fff;
 }
+.form textarea{
+    width: 500px;
+    height: 200px;
+    resize: none;
+    background: none;
+    border: 1px solid #711CFC;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px 10px;
+    color: #fff;
+    
+}
+.form textarea::-webkit-scrollbar{
+    display: none;
+}
 .buttonSubmitForm{
     width: 70px;
     height: 25px;
@@ -385,6 +400,9 @@ main{
         padding: 75px 15px;
     }
     .form input{
+        width: 300px;
+    }
+    .form textarea{
         width: 300px;
     }
     .contact h2{
