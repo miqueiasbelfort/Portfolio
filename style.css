@@ -333,6 +333,11 @@ main{
     .linkOfGrid {
         font-size: 12px;
     }
+    .boxGrid img{
+        width: 100px;
+        height: 100px;
+        opacity: .3;
+    }
 }
 
 
