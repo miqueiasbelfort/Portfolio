@@ -1,4 +1,5 @@
 const hamburguer = document.querySelector('.menuMobile i');
+const menuMobileInfo = document.querySelector('.menuMobile .ulOfList');
 
 hamburguer.addEventListener('click', ()=>{
     //console.log('click in menuMobile');
@@ -9,10 +10,18 @@ hamburguer.addEventListener('click', ()=>{
         menuMobile.classList.add('showMenu')
     }
 
-    const allMenu = document.querySelector('.liOfList a')
+    const allMenu = document.querySelectorAll('.liOfList a')
 
-    allMenu.addEventListener('click', () => {
-        menuMobile.classList.remove('showMenu')
+    allMenu.forEach(element => {
+        element.addEventListener('click', (e) => {
+            //console.log(e.target)
+
+            if(menuMobileInfo.classList.contains('showMenu')){
+                menuMobileInfo.classList.remove('showMenu')
+            } else {
+                //console.log("erro")
+            }
+        })
     })
 
 })

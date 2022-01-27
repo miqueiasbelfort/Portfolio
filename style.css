@@ -275,9 +275,15 @@ main{
     justify-content: center;
     gap: 5px;
     transition: .2s;
+    position: relative;
 }
 .boxGrid:hover{
     background: #721cfc81;
+}
+.boxGrid img{
+    width: 200px;
+    height: 200px;
+    opacity: .3;
 }
 .box-1{
     grid-area: box-1;
@@ -294,11 +300,10 @@ main{
 .linkOfGrid{
     color: #fff;
     font-family: 'Sarala', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     transition: .2s;
-}
-.linkOfGrid:hover{
-    color: #0c0663;
+    position: absolute;
+    font-weight: bold;
 }
 .projects p{
     font-family: 'Sarala', sans-serif;
